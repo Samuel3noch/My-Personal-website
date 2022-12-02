@@ -1,0 +1,15 @@
+body { 
+    margin: 0px; 
+}   
+header { 
+ padding-left: 20px;
+ display: flex; 
+}
+.space { 
+ padding-left: 100px;
+}
+.middel { 
+ display: flex; 
+}
+
+
