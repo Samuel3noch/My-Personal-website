@@ -1,5 +1,6 @@
 # My-Personal-website
 
-Hi, i'm building my own website. <br>
+Hey, ik bouw mijn website in teken voor een school opdracht. <br> 
+Deze website ga ik gebruiken voor het solliciteren voor een stage. <br> 
 
-This website is going to be in theme of my personal useage.
+(Tijdsvak: Leerjaar 1, Periode 2).
