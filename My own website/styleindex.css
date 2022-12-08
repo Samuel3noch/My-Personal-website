@@ -2,14 +2,17 @@ header {
  padding-left: 20px;
  display: flex; 
 }
-.space { 
- padding-left: 100px;
+nav {
+ margin-right: 20px; 
 }
+     .navspace {  
+     padding: 100px; 
+     } 
 body { 
  margin: 0px; 
 }   
-.middel { 
- display: flex; 
-}
+     .middel { 
+     display: flex; 
+     }
 
 
