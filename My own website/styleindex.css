@@ -1,18 +1,32 @@
-header { 
- padding-left: 20px;
- display: flex; 
-}
-nav {
- margin-right: 20px; 
-}
-     .navspace {  
-     padding: 100px; 
-     } 
 body { 
- margin: 0px; 
-}   
-     .middel { 
-     display: flex; 
-     }
-
-
+ margin: 0px;
+ background-color: darkgrey;
+}
+header { 
+ padding-left: 140px;
+ display: flex; 
+ background-color: cadetblue;
+ color: white;
+}
+.navibar {
+ background-color: bisque;
+}
+nav { 
+ margin-left: 40px; 
+ color: black; 
+}
+.navspace {  
+padding: 100px; 
+} 
+.middel { 
+ display: flex; 
+ margin-left: 200px;
+ margin-right: 200px;
+ background-color: cadetblue;
+}
+.tekst1 { 
+ margin-left: 40px;
+}
+.noimage { 
+ padding-left: 160px;
+}
