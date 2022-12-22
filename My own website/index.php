@@ -28,11 +28,16 @@
      <img src="Image-all/noimage.jpg" alt="noimage" class="noimage"> <!-- Moet een image van mijzelf worden. -->
  </middel> <!-- Einde van mijn midden stuk. -->
 
- <comments>
+ <comments> <!-- hier begin ik met het bouwen van een comments section.  -->
      <?php 
-      
-    
-     ?>
+       $query = "SELECT * From comments"; 
+       $comments = $conn->prepare($query); 
+         $comments->execute(array());
+         $comments->setFetchMode(PDO::FETCH_ASSOC);
+         foreach($comments as $comments) {  
+             echo "<br />".$comments["Name"].": ".$comments["Comment"]." ".$comments["Date"];
+         }
+     ?> 
  </comments>
  <footer> <!-- Begin van mijn footer. -->
  </footer> <!-- Einde van mijn footer. -->
