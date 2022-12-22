@@ -33,7 +33,6 @@
       
     
      ?>
-    
  </comments>
  <footer> <!-- Begin van mijn footer. -->
  </footer> <!-- Einde van mijn footer. -->
